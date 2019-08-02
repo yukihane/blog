@@ -12,7 +12,7 @@
 	
 			<th:block th:with="total_posts = *{#lists.size(published_posts)}">
 				<th:block th:if="*{total_posts != 0}" th:with="first_post = *{posts[0]}">
-					<h3 th:text="*{#dates.format(first_post.date,'MMMM yyyy')}">June 2014</h3>
+					<h3 th:text="*{#dates.format(first_post.date,'yyyy-MM')}">June 2014</h3>
 
 					<h4>
 						<span class="font-weight-bold" th:text="*{#dates.format(first_post.date,'dd')}"/> -

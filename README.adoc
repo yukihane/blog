@@ -1,0 +1,16 @@
+= README
+
+https://himeji-cs.jp/bolg2/
+
+https://jbake.org/[JBake] を用いた個人blog。
+
+* https://takumon.github.io/asciidoc-syntax-quick-reference-japanese-translation[AsciiDoc クイックリファレンス]
+
+
+== 公開方法(自分用メモ)
+
+----
+rm -r output
+jbake -b
+rsync -av -e ssh ./output/ himeji-cs@himeji-cs.jp:www/blog2
+----

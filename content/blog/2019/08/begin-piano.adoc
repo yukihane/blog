@@ -3,7 +3,7 @@ yukihane
 2019-08-31
 :jbake-type: post
 :jbake-status: published
-:jbake-tags: diary
+:jbake-tags: diary,piano
 :idprefix:
 
 ## 経緯

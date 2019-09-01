@@ -118,3 +118,5 @@ Caused by: java.lang.ClassNotFoundException: org.mapstruct.ap.spi.AstModifyingAn
 これを標準クラスパスに移してしまう、というのが上のスクリプトで行っていることです。
 
 制限事項としては、上のスクリプトで作成した `lombok.jar` を使う場合、 *Eclipseを動作させるJDKはバージョン9以上でなければなりません* (もしかすると、オフィシャル `jar` でクラスパスが別れているのはこれが理由かもしれません)。
+
+ちなみに、LombokとMapStructを同時に適用する場合の `pom.xml` は https://github.com/yukihane/hello-java/blob/master/mapstruct/hello-mapstruct/pom.xml[こんな感じ] です。

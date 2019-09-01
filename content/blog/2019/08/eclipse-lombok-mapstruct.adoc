@@ -104,7 +104,7 @@ Caused by: java.lang.ClassNotFoundException: org.mapstruct.ap.spi.AstModifyingAn
 	... 46 more
 ----
 
-この問題はMapStructオフィシャルのissueにも登録されており、そこに解決策が提示されています。
+この問題はMapStructオフィシャルのissueにも登録されており、そこに解決策(workaroundですが)が提示されています。
 
 * https://github.com/mapstruct/mapstruct/issues/1159#issuecomment-374617404[Mapstruct, Lombok, Maven & Eclipse #1159]
 

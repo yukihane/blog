@@ -1,6 +1,6 @@
 = Cargo.lock をバージョン管理するや否や
 yukihane
-2019-08-19
+2019-09-01
 :jbake-type: post
 :jbake-status: published
 :jbake-tags: rust

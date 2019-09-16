@@ -7,8 +7,7 @@ yukihane
 :idprefix:
 
 Spring SecurityのOAuth実装は https://qiita.com/yukihane/items/fc97f888ecb6a6850ea7[こちらに書いたとおり] 歴史的経緯により複数存在しますが、 https://start.spring.io/ の
- Dependencies で "OAuth2 Client" を選択した場合に追加されるものは一番新しいSpring Securityの https://docs.spring.io/spring-security/site/docs/5.1.6.RELEASE/reference/ht
-ml/modules.html#spring-security-oauth2-client[`spring-security-oauth2-client`] (及び `spring-security-oauth2-jose`)でした。
+ Dependencies で "OAuth2 Client" を選択した場合に追加されるものは一番新しいSpring Securityの https://docs.spring.io/spring-security/site/docs/5.1.6.RELEASE/reference/html/modules.html#spring-security-oauth2-client[`spring-security-oauth2-client`] (及び `spring-security-oauth2-jose`)でした。
 
 というわけでSpring Securityのリファレンス https://docs.spring.io/spring-security/site/docs/5.1.6.RELEASE/reference/html/jc.html#oauth2login[6.7 OAuth 2.0 Login] を参
 照しながら実装していきます。

@@ -15,6 +15,7 @@ Ubuntu18.04, Coffee Lake iGPU で vulkan での実行を可能にするには
 
 の2点が必要。
 
+(おそらく実際には、実行に `libvulkan1` 、及び開発には加えて `libvulkan-dev` も必要と思われるが、最初からインストールされていた)
 
 == はじめに
 
